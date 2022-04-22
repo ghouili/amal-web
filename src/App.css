@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-left: 65px;
+  transition: all 0.4s;
+  z-index: -9;
+  /* border-style: solid; */
+}
+
+.main.active {
+  margin-left: 240px;
+  transition: all 0.2s;
+}
+
+main .MuiDrawer-root .MuiPaper-root {
+  margin-top: 64.5px;
+}
