@@ -16,25 +16,25 @@ const Mainroute = () => {
         <Route 
             path='/' 
             element={
-                <ReaquiredAuth>
+                // <ReaquiredAuth>
                     <HomePage />
-                </ReaquiredAuth>
+                // </ReaquiredAuth>
             } 
         />
         <Route 
             path='/demande' 
             element={
-                <ReaquiredAuth>
+                // <ReaquiredAuth>
                     <Demande />
-                </ReaquiredAuth>
+                // </ReaquiredAuth>
             } 
         />
         <Route 
             path='/schedule' 
             element={
-                <ReaquiredAuth>
+                // <ReaquiredAuth>
                     <Schedules />
-                </ReaquiredAuth>
+                // </ReaquiredAuth>
             } 
         />
 
